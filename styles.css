@@ -459,12 +459,9 @@ hr{
     font-family: Arial, Helvetica, sans-serif;
 }
 .blog-2{
-    background-color: rgba(240, 255, 255, 0.295);
-    background-image: url("https://i.ibb.co/Y0KX2y7/comingsoon.jpg");
-    background-size: cover;
-    background-position: center;
-    background-image; opacity: 0.8;
-    display: none;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .blog-3{
     background-color: rgba(240, 255, 255, 0.295);
