@@ -303,46 +303,23 @@ footer{
     color: rgb(250, 249, 249);
     padding-bottom: 30px;
     padding-top: 30px;
+    text-align: center;
 }
 .skills li{
-    display: flex;
-    margin-bottom: 10px;
-    justify-content: space-between;
-    margin: auto;
-    width: 60%;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
+	background-color: rgba(0, 0, 0, 0.699);
     list-style: none;
-    text-shadow: 1px 1px 1px black;
+    margin: auto;
+    width: 7%;
     border-radius: 20px;
-    background-color: rgba(2, 2, 2, 0.692);
 }
-.skills li .skill_prog{
-    width: 50%;
-    height: 15px;
-    position: relative;
-}
-.skills li .skill_prog span{
-    position: absolute;
-    height: 50%;
-    background-color: rgba(54, 255, 47, 0.63);
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-left: 5px;
-    border-radius: 10px;
-}
-.skill_name{
-    width: 20%;
-    text-align: left;
-}
-.skill_per{
-    padding: 3px;
-}
+
 .explist li{
     padding: 20px;
 	background-color: rgba(0, 0, 0, 0.699);
     list-style: none;
     margin: auto;
-    width: 70%;
+    width: 7%;
     border-radius: 20px;
 }
 .explist{
@@ -463,14 +440,6 @@ hr{
     padding-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.blog-3{
-    background-color: rgba(240, 255, 255, 0.295);
-    background-image: url("https://i.ibb.co/Y0KX2y7/comingsoon.jpg");
-    background-size: cover;
-    background-position: center;
-    background-image; opacity: 0.8;
-    display: none;
-}
 .blog-text{
     text-align: center;
     font-size: 20px;
@@ -536,7 +505,7 @@ a.blog-button:hover{
         font-family: Arial, Helvetica, sans-serif;
         line-height: 20px;
     }
-	.blog-2{
+    .blog-2{
         background-color: rgba(0, 0, 0, 0.75);
         padding-bottom: 10px;
         font-family: Arial, Helvetica, sans-serif;
